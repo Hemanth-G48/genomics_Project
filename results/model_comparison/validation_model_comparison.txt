@@ -1,0 +1,27 @@
+VALIDATION-ONLY MODEL COMPARISON
+The Test partition was not loaded or evaluated.
+
+BASELINE
+  checkpoint: models/cnn_bilstm_features_best.pt
+  checkpoint_epoch: 4
+  checkpoint_recorded_val_macro_f1: 0.7326967935450317
+  threshold: 0.75
+  accuracy: 0.9365256495697436
+  macro_f1: 0.7524634775312322
+  exon_precision: 0.5234309547355188
+  exon_recall: 0.555546240874641
+  exon_f1: 0.5390106490550999
+  intron_f1: 0.9659163060073646
+
+FOCAL
+  checkpoint: models/cnn_bilstm_focal_best.pt
+  checkpoint_epoch: 4
+  checkpoint_recorded_val_macro_f1: 0.7256428497958581
+  threshold: 0.6
+  accuracy: 0.9354272037761251
+  macro_f1: 0.747292410310849
+  exon_precision: 0.515800282319089
+  exon_recall: 0.5434170226086102
+  exon_f1: 0.5292486298600503
+  intron_f1: 0.9653361907616478
+

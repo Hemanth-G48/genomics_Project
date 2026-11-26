@@ -1,0 +1,27 @@
+INDEPENDENT TEST-SET EVALUATION
+==========================================
+Checkpoint epoch: 4
+Validation-selected exon threshold: 0.7500
+Confusion matrix (rows=true, columns=predicted):
+                 Pred Exon   Pred Intron
+True Exon           3953269       3442201
+True Intron         5378941     106702285
+
+Accuracy: 0.926169
+Macro F1: 0.716484
+Valid bases: 119,476,696
+
+Exon:
+  Precision: 0.423616
+  Recall:    0.534553
+  F1-score:  0.472662
+  Support:   7,395,470
+
+
+Intron:
+  Precision: 0.968748
+  Recall:    0.952009
+  F1-score:  0.960305
+  Support:   112,081,226
+
+Protocol: threshold selected using validation only; test partition evaluated once. Padding label X was excluded.

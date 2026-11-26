@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Large / reproducible data files (see README)
+Data/
+feature_dataset/
+window_dataset/window_sequences.fa.gz
+prepared_dataset/transcript_sequences.fa.gz
+
+# OS
+.DS_Store
+Thumbs.db

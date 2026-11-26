@@ -1,0 +1,18 @@
+VALIDATION-ONLY ERROR ANALYSIS
+============================================
+Checkpoint epoch: 4
+Selected validation threshold: 0.7500
+Validation accuracy: 0.936526
+Validation macro F1: 0.752463
+Exon precision/recall/F1: 0.523431 / 0.555546 / 0.539011
+Intron precision/recall/F1: 0.968047 / 0.963795 / 0.965916
+
+Confusion matrix (rows=true, columns=predicted):
+True exon:   predicted exon=4,433,389, predicted intron=3,546,845
+True intron: predicted exon=4,036,475, predicted intron=107,453,911
+
+Exon-probability distribution on valid bases:
+True exon: mean=0.661982, median=0.827188, p10=0.066701, p90=0.995975
+True intron: mean=0.100931, median=0.014819, p10=0.001525, p90=0.338960
+
+This analysis used Validation only. The Testing partition was not loaded or evaluated.
